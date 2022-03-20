@@ -1,0 +1,61 @@
+====================================
+            QUANTIFICADORES
+====================================
+
+Expressões Regulares
+=> Expres{2}ões Regulares
+
+Regex ou Regexp
+=> regexp?
+
+Mortadela ou Mortandela
+=> Mortan?dela
+=> Mortan{0, 1}dela
+
+Galopeira ou Galopeeeeeeeee...eeeeiraaaa...aaaa
+=> Galope+ira{1,}
+
+pn ou pyn ou pyyyyyyyyn ou pyyy...yyyn
+=> py*n
+
+
+====================================
+               CLASSES
+====================================
+Expressões ou Expressoes
+=> Express[õo]es
+
+Gray ou Grey
+=> Gr[ae]y
+
+Will ou Will ou WILL ou will
+=> [wW][iI][lL]{2}
+
+
+====================================
+               GRUPOS
+====================================
+ERs ou expreg ou regexp
+=> (ERs|expreg|regexp)
+
+Willams ou Will
+=> Will(ams)?
+=> (Will|Willams)
+
+Will lindo. Lindo Will.
+=> (Will) ([lL]indo). \2 \1.
+
+
+====================================
+               ÂNCORAS
+====================================
+
+Minha senha é Minha senha
+=> ^Minha senha
+
+Minha senha é Minha senha
+=> Minha senha$
+
+12376432
+=> ^[0-9]$
+

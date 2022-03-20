@@ -1,0 +1,18 @@
+# email
+will.felix@thoughtworks.com
+=> [\w.]+@\w+.com
+
+
+# url
+https://www.youtube.com
+=> https?://w{3}\.\w+.com
+
+
+# cpf
+123.456.789-90
+=> (\d{3}\.?){3}-\d{2}
+
+
+# date
+12/12/2020
+=> \d{2}/\d{2}/\d{4}
