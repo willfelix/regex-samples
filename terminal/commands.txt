@@ -1,1 +1,1 @@
-cat grep.html | grep -Ei hero-name | sed -E "s/^ +<p.*>(.+)<\/p>/\1/g"
+cat grep.html | grep -Ei SEARCH | sed -E "s/REGEX/REPLACE/g"
