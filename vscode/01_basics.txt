@@ -31,6 +31,9 @@ Gray ou Grey
 Will ou Will ou WILL ou will
 => [wW][iI][lL]{2}
 
+Qualquer coisa que não seja numero aqui vai dar match
+=> [^0-9]+
+
 
 ====================================
                GRUPOS
