@@ -1,10 +1,10 @@
+var html = `
 <section class="module moduColor_Light">
   <div class="grid-container">
     <h2 class="module-header">Featured Characters</h2>
     <div class="JCMultiRow JCMultiRow-character row-item-centered">
       <div id="68" class="row-item character-item">
         <div class="mvl-card mvl-card--explore">
-          
           <a
             href="https://marvel.com/comics/characters/1009165/avengers"
             class="explore__link"
@@ -26,7 +26,6 @@
       </div>
       <div id="54" class="row-item character-item">
         <div class="mvl-card mvl-card--explore">
-          
           <a
             href="https://marvel.com/comics/characters/1009610/spider-man"
             class="explore__link"
@@ -269,3 +268,10 @@
     </div>
   </div>
 </section>
+`;
+
+var regex = /<[^>]+>/gm;
+var strippedHTML = html.replace(regex, "");
+var sanitizedHtml = strippedHTML.replace(/ {2,}/g, "").replace(/\n+/g, "\n");
+
+console.log(sanitizedHtml);

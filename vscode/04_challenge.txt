@@ -1,3 +1,5 @@
+# turn csv into json
+
 _id,age,name,company
 609c559c8ffbcf9561ababed,39,Dorthy Marsh,PYRAMI
 609c559c71f75b6883343755,23,Jacobs Bernard,PROSURE

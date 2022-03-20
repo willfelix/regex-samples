@@ -16,3 +16,10 @@ https://www.youtube.com
 # date
 12/12/2020
 => \d{2}/\d{2}/\d{4}
+
+
+# hexcolor
+#590ddb
+#14c
+#14c12 -> invalid
+=> ^#([a-f0-9]{3}){1,2}$
