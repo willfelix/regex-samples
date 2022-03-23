@@ -1,0 +1,31 @@
+// classes groups alternations backreference
+
+Expressões
+Expressoes
+Gray
+Grey
+Will
+WIll
+WILl
+WILL
+WIlL
+will
+wILL
+wILl
+wIlL
+ERs
+expreg
+regexp
+regex
+Willams
+Will lindo. Lindo Will.
+
+
+=> Express[õo]es
+=> Gr[ae]y
+=> [wW][iI][lL]{2}
+=> [^0-9]+
+=> (ERs|expreg|regexp?)
+=> Will(ams)?
+=> (Will|Willams)
+=> (Will) ([lL]indo). \2 \1.
